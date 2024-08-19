@@ -34,7 +34,7 @@ public class CalculatorServlet extends HttpServlet {
 				result = num1 / num2;
 			} else {
 				response.getWriter()
-						.println("<html><body><h1>Error: Division by zero is not allowed.</h1></body></html>");
+				println("<html><body><h1>Error: Division by zero is not allowed.</h1></body></html>");
 				return;
 			}
 			break;
